@@ -1,6 +1,6 @@
 import json
 import os
-from typing import Optional, Tuple
+from typing import Optional
 from .config import settings
 from .db import get_session
 from .models import Manual, Chunk, Pill, Asset

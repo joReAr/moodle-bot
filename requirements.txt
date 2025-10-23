@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-dotenv
+sqlmodel
+SQLAlchemy
+pydantic
+pydantic-settings
+python-multipart
+pytesseract
+Pillow
+opencv-python
+PyMuPDF==1.24.9
+numpy
+whoosh
+faiss-cpu
+google-generativeai

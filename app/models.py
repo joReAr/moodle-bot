@@ -17,7 +17,7 @@ class Chunk(SQLModel, table=True):
     page: int = Field(default=0, index=True)
     text: str
     images_json: str = Field(default="[]")  # lista [{ref,page,bbox,caption}], JSON str
-    created_at: datetime = Field(default_factory=datetime.time.utcnow)
+    created_at: datetime = Field(default_factory=datetime.utcnow)
 
     manual: Manual = Relationship(back_populates="chunks")
 
